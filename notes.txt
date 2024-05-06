@@ -1,0 +1,2 @@
+1. sklearn version must match with the trained model and the flask application.
+2. Old generated model may not work most of the time due to compatibility issue. 
