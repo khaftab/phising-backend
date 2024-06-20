@@ -8,7 +8,7 @@ from featureExtraction import featureExtraction
 from validURLCheck import is_url_live
 
 # Load the trained model
-with open('DecisionTreeClassifier.pickle.v2.dat', 'rb') as f:
+with open('XGBoostClassifier.pickle.dat', 'rb') as f:
     model = pickle.load(f)
 
 # with open('haka.dat', 'rb') as f:
